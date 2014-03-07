@@ -32,4 +32,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency "oauth2"
   spec.add_dependency "virtus"
   spec.add_dependency "activesupport"
+  spec.add_dependency "activemodel"
 end

@@ -10,6 +10,7 @@ require 'support/let'
 require 'support/shared_adapter_examples'
 require 'support/shared_record_examples'
 require 'support/shared_sideloaded_data_parsing_examples'
+require 'support/active_model_compliance_test'
 require 'support/testing_adapter'
 require 'support/vcr_support'
 
