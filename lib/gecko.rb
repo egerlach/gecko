@@ -2,7 +2,7 @@ require 'virtus'
 require 'active_support/inflector'
 require 'active_support/notifications'
 require 'oauth2'
-
+require 'lizard'
 require 'gecko/client'
 
 # Include models
