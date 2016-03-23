@@ -14,6 +14,7 @@ module Gecko
       belongs_to :default_sales_order_tax_type,    class_name: "TaxType"
       belongs_to :default_purchase_order_tax_type, class_name: "TaxType"
       belongs_to :default_tax_exempt,              class_name: "TaxType"
+      belongs_to :default_document_theme,          class_name: "DocumentTheme"
 
       # belongs_to :default_order_price_list,          class_name: "PriceList"
       attribute :default_order_price_list_id,          String
