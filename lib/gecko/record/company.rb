@@ -28,9 +28,6 @@ module Gecko
       attribute :status,                 String
 
       attribute :tax_number,             String
-
-      attribute :default_tax_rate,       BigDecimal
-      attribute :default_discount_rate,  BigDecimal
     end
 
     class CompanyAdapter < BaseAdapter
